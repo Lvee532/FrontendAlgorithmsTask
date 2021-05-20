@@ -1,4 +1,5 @@
 // For Questions 1 and 2, I created a function  first named "checkDataType"  that checks for the data type of the parameter. This function is called in the main functions below
+
 function checkDataType(data) {
   //This function returns the data type of (data).
 
