@@ -35,7 +35,7 @@ function convertFahrToCelius(TFah) {
   // - if false, returns a preformated string in the form, '[TFah] is not a valid number but a/an [data type].'
 
   if (checkDataType(TFah) == "number") {
-    let TCel = ((TFah - 32) * 5) / 9;
+    let TCel = ((TFah - 32) * 5/9);
     console.log(TCel.toFixed(4));
     return TCel.toFixed(4);
   } else {
